@@ -1,9 +1,28 @@
 {
+  "author": "Tsanfer",
+  "dependencies": {
+    "vuepress-plugin-reading-progress": "1.0.9",
+    "@vuepress/plugin-nprogress": "^1.4.0",
+    "@vuepress/plugin-active-header-links": "^1.7.1",
+    "@vuepress/plugin-back-to-top": "^1.7.1",
+    "@vuepress/plugin-medium-zoom": "^1.7.1",
+    "vuepress": "^1.7.1"
+  },
+  "description": "创建VuePress-GithubPages-TravisCI在线文档",
+  "homepage": "https://github.com/bromiao/bromiao.github.io#readme",
+  "keywords": [
+    "VuePress",
+    "Github Pages",
+    "Travis CI"
+  ],
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bromiao/bromiao.github.io.git"
+  },
   "scripts": {
     "serve": "vuepress dev docs",
     "build": "vuepress build docs"
-  },
-  "devDependencies": {
-    "vuepress": "^1.7.1"
   }
 }
