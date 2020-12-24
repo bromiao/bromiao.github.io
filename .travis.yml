@@ -13,4 +13,4 @@ after_success:
   - git config --global user.email "ss@gmail.com"
   - git add -A
   - git commit -m 'deploy'
-  - git push --quiet --force "https://${GH_TOKEN}@${REPO_BRANCH}"
+  - git push --quiet --force "https://${GH_TOKEN}@${GH_REF}" master:${REPO_BRANCH}
